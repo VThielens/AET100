@@ -1,0 +1,51 @@
+﻿Index;Signal;Comment;Description;Resolution;Unit of measure;Hexadecimal address;Decimal address;Data type
+1;Turbine state;;See table 2;1;;201;513;INT
+2;Status information;;See table 3;1;;202;514;INT
+3;Electrical power output;;;0.1;kW;203;515;INT
+4;Site imported electrical power;Needs external measurement, optional;;0.1;kW;204;516;INT
+5;Site water temperature;;;0.1;°C;205;517;INT
+6;Site boiler outlet temperature;Needs external measurement, optional;;0.1;°C;206;518;INT
+7;Exhaust gas temperature;Needs external measurement, optional;;0.1;°C;207;519;INT
+8;Heat exchanger inlet water temp;Needs external measurement, optional;;0.1;°C;208;520;INT
+9;Heat exchanger outlet water temp;;;0.1;°C;209;521;INT
+10;Heat exchanger bypass position;;Opening of by-pass on the exhaust gas;0.1;% open;020A;522;INT
+11;Turbine speed;;Percentage of speed (0–100%) ≈ (0–70,000 rpm);0.1;%;020B;523;INT
+12;Mechanical vibration;;;0.01;g;020C;524;INT
+13;Fuel valve inlet pressure;;;0.01;bar;020D;525;INT
+14;Air filter pressure drop;;;1;Pa;020E;526;INT
+15;Pilot valve cmd;;;0.1;%;020F;527;INT
+16;Main valve cmd;;;0.1;%;210;528;INT
+17;Air inlet temperature;;;0.1;°C;211;529;INT
+18;Turbine outlet temperature (TOT);;;0.1;°C;212;530;INT
+19;Generator temperature;;;0.1;°C;213;531;INT
+20;PE DC link voltage;;;0.1;VDC;214;532;INT
+21;Bearing inlet oil temperature;;;0.1;°C;215;533;INT
+22;Ball bearing oil temperature;;;0.1;°C;216;534;INT
+23;Roller bearing oil temperature;;;0.1;°C;217;535;INT
+24;Operation hours;;;10;h;218;536;INT
+25;Running hours;;;1;h;219;537;INT
+26;Number of starts;;;1;;021A;538;INT
+27;Produced electrical energy;;;1000;kWh;021B;539;INT
+28;Produced electrical energy (ext);Needs external measurement, optional;;1000;kWh;021C;540;INT
+29;Consumed gas volume (ext);Needs external measurement, optional;;1000;m³/h;021D;541;INT
+30;Produced thermal energy (ext);Needs external measurement, optional;;1000;kWh;021E;542;INT
+31;PMC – digital input bit word;bit word;See table 4;1;;021F;543;UINT
+32;SCC – digital input bit word;bit word;See table 4;1;;220;544;UINT
+33;Fault word 1;bit word;See table 5;1;;221;545;UINT
+34;Fault word 2;bit word;See table 5;1;;222;546;UINT
+35;Fault word 3;bit word;See table 5;1;;223;547;UINT
+36;Fault word 4;bit word;See table 5;1;;224;548;UINT
+37;Fault word 5;bit word;See table 5;1;;225;549;UINT
+38;Fault word 6;bit word;See table 5;1;;226;550;UINT
+39;Fault word 7;;Not used;;;227;551;UINT
+40;Active control mode;Local / BMS / Remote / Schedule / SiteCtrl / Modbus;;1;;228;552;INT
+41;Running hours (fine reading);;Value to add to reg. 25 to have complete read;0.001;h;229;553;
+42;Not used;;;;;022A;554;
+43;Not used;;;;;022B;555;
+44;Not used;;;;;022C;556;
+45;Not used;;;;;022D;557;
+46;Buffer air pressure;;;1;mbar;022E;558;INT
+47;EEI Aux Inv 3° Phase;;;0.1;A;022F;559;INT
+48;CNG Fuel Booster speed;;;0.1;RPM;230;560;INT
+49;Not used;;;;;231;561;
+50;Not used;;;;;232;562;

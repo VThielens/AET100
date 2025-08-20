@@ -1,0 +1,15 @@
+Index,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,46,47,48,Status Code,Status Description
+Signal,Turbine state,Status information,Electrical power output,Site imported electrical power,Site water temperature,Site boiler outlet temperature,Exhaust gas temperature,Heat exchanger inlet water temp,Heat exchanger outlet water temp,Heat exchanger bypass position,Turbine speed,Mechanical vibration,Fuel valve inlet pressure,Air filter pressure drop,Pilot valve cmd,Main valve cmd,Air inlet temperature,Turbine outlet temperature (TOT),Generator temperature,PE DC link voltage,Bearing inlet oil temperature,Ball bearing oil temperature,Roller bearing oil temperature,Operation hours,Running hours,Number of starts,Produced electrical energy,Produced electrical energy (ext),Consumed gas volume (ext),Produced thermal energy (ext),PMC – digital input bit word,SCC – digital input bit word,Fault word 1,Fault word 2,Fault word 3,Fault word 4,Fault word 5,Fault word 6,Fault word 7,Active control mode,Running hours (fine reading),Buffer air pressure,EEI Aux Inv 3° Phase,CNG Fuel Booster speed,,
+time,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-08-20 15:06:41,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,383,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,5,Emergency active,No information
+2025-08-20 15:06:43,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,384,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,5,Emergency active,No information
+2025-08-20 15:06:44,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,384,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,5,Emergency active,No information
+2025-08-20 15:06:45,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,385,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,5,Emergency active,No information
+2025-08-20 15:06:46,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,385,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,5,Emergency active,No information
+2025-08-20 15:06:47,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,382,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,5,Emergency active,No information
+2025-08-20 15:06:48,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,381,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,5,Emergency active,No information
+2025-08-20 15:06:50,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,381,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,5,Emergency active,No information
+2025-08-20 15:06:51,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,381,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,6,Emergency active,No information
+2025-08-20 15:06:52,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,381,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,6,Emergency active,No information
+2025-08-20 15:06:53,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,382,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,6,Emergency active,No information
+2025-08-20 15:06:54,1,0,0,0,0,-250,764,0,0,0,0,0,0,0,0,0,200,381,0,0,0,0,0,2,0,47,1,0,0,0,6004,2694,0,0,0,0,0,0,0,3,4471,0,10,6,Emergency active,No information

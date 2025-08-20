@@ -1,0 +1,16 @@
+﻿State number;Denomination;Description
+1;STOPPED;The unit is stopped. Main contactor is opened.
+2;CHECK GAS;Check of gas leakage.
+3;VENTILATION WITHOUT ENCLOSURE LOAD;The ventilation fan is running and the enclosure loads are not supplied.
+4;VENTILATION WITH ENCLOSURE LOAD;Enclosure evacuation fan is in operation. Also active when unit is cooling down after running.
+5;START AUX SYSTEMS;Enclosure electrical systems are powered up.
+6;RAMP UP;Speed is increased from 0% to 35%.
+7;VENTILATION;Turbine system is ventilated from gas.
+8;LIGHT UP;Gas flow is enabled and combustion chamber is ignited.
+9;RAMP UP 2;Speed is increased from 35% to 75%.
+10;POST START RAMP;Recuperator and heat exchanger warmed up with a slow increasing temperature ramp.
+11;RUNNING;Unit is in full operation and reacts to user-defined power and water temperature requests.
+12;STOPPING;The speed is decreased till 0%.
+13;VENTILATION WITH ENCLOSURE LOAD;The ventilation fan is running and the enclosure loads are supplied.
+14;VENTILATION WITHOUT ENCLOSURE LOAD;The ventilation fan is running and the enclosure loads are not supplied.
+15;STOPPED WITH ALARM;Turbine is stopped and an alarm is active.

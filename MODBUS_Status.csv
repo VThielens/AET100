@@ -1,0 +1,33 @@
+﻿Status information;Description
+0;No information
+1;Emergency active
+2;Test mode active
+3;Alarm active
+4;Stopped for service
+5;Main switch open
+6;Stopped by BMS
+7;PE power limitation
+8;Diff. Press. not set
+9;Date not set
+10;Grid not healthy (ext.)
+11;Grid mode not enabled
+12;BMS Grid mode not enabled
+13;Electrical power demand low
+14;Heat demand low
+15;Braked mod. not available
+16;Main contactor open
+17;BMS level stop
+18;Grid healthy (int)
+19;SAM not enabled
+20;BMS — SMA not enabled
+21;PE not of SAM type
+22;SA grid not healthy
+23;Start battery low volt
+24;not used
+25;not used
+26;RunlnMode operation
+27;Shut down in progress
+28;Grid mode operation
+29;Stand Alone mode operation
+30;HSB operation
+31;Gen mode not selected
