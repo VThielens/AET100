@@ -2,13 +2,15 @@ from pymodbus.client import ModbusSerialClient
 import csv
 import time
 import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
 
 FILE_MODBUS_READINGTABLE = r"MODBUS_ReadingTable.csv"
 FILE_MODBUS_INTERNALSTATE = r"MODBUS_InternalState.csv"
 FILE_MODBUS_STATUS = r"MODBUS_Status.csv"
 
-SAVE_ADDRESS_RAW = r"log_modbus.csv"
-SAVE_ADDRESS_CONVERTED = r"log_modbus_treated.csv"
+SAVE_ADDRESS_RAW = "log_"+time.strftime("%Y_%m_%d_%H%M%S")+".csv"
+SAVE_ADDRESS_CONVERTED = SAVE_ADDRESS_RAW[:-4]+"_treated.csv"
 
 def unsigned_to_signed(value):
     if value >= 2**15:
@@ -97,4 +99,4 @@ def conversion_data():
 
 if __name__=='__main__':
     acquisition()
-    conversion_data()
+    #conversion_data()
